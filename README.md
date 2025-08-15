@@ -1,4 +1,8 @@
 1. Analisis Kemiripan Isu Pemda Berdasarkan Tema
+
+
+
+
  # Deskripsi
 
 Script ini melakukan analisis kemiripan isu antar pemerintah daerah (Pemda) menggunakan pendekatan semantic similarity (kemiripan makna).
@@ -106,6 +110,11 @@ Jika dataset besar, proses bisa memakan waktu karena perhitungan similarity dila
 
 
 2. Analisis Penyebaran Tema Isu Pemda
+
+
+
+
+
 # Deskripsi
 Script ini melakukan analisis penyebaran tema pada data isu pemerintah daerah (Pemda) berdasarkan kamus kata kunci yang sudah ditentukan.
 Pengguna bisa memilih salah satu tema, lalu script akan menghitung jumlah isu di setiap Pemda yang mengandung kata kunci tema tersebut.
@@ -199,7 +208,13 @@ Semua pencarian kata kunci tidak case sensitive (huruf besar/kecil tidak berpeng
 
 
 
+
+
 3. Analisis Topik Utama Pemda (TF-IDF + Cosine Similarity)
+
+
+
+
 
 # Deskripsi
 Script ini digunakan untuk menganalisis **isu-isu program pemerintah daerah** berdasarkan *tema utama* yang didefinisikan di `kamus_tema.json`.  
