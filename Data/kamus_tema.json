@@ -1,0 +1,262 @@
+{
+    "Ekonomi": [
+        "ekonomi",
+        "perdagangan"
+    ],
+    "SDM": [
+        "sumber daya manusia",
+        "sdm",
+        "pengembangan sumber daya manusia",
+        "tenaga kerja"
+    ],
+    "Lingkungan Hidup": [
+        "lingkungan",
+        "lingkungan hidup",
+        "pencemaran",
+        "konservasi"
+    ],
+    "Bencana": [
+        "bencana",
+        "kebencanaan",
+        "mitigasi"
+    ],
+    "Infrastruktur dan Utilitas Kota": [
+        "infrastruktur",
+        "utilitas kota",
+        "sarana prasarana"
+    ],
+    "Kota Cerdas": [
+        "kota cerdas",
+        "smart city",
+        "teknologi kota"
+    ],
+    "Citra Kota": [
+        "citra kota",
+        "branding kota",
+        "identitas kota"
+    ],
+    "Kota Jasa": [
+        "kota jasa",
+        "sektor jasa"
+    ],
+    "Tata Kelola Pemerintahan": [
+        "tata kelola",
+        "pemerintahan",
+        "good governance"
+    ],
+    "IKN": [
+        "ikn",
+        "ibu kota negara",
+        "pemindahan ibu kota"
+    ],
+    "Pendidikan": [
+        "pendidikan",
+        "sekolah",
+        "literasi"
+    ],
+    "Kesehatan": [
+        "kesehatan",
+        "fasilitas kesehatan",
+        "rumah sakit"
+    ],
+    "Lapangan Pekerjaan": [
+        "lapangan pekerjaan",
+        "pekerjaan",
+        "kesempatan kerja"
+    ],
+    "Pangan": [
+        "pangan",
+        "ketahanan pangan"
+    ],
+    "Teknologi": [
+        "teknologi",
+        "digital",
+        "inovasi"
+    ],
+    "Sosial Budaya": [
+        "sosial",
+        "budaya",
+        "kebudayaan"
+    ],
+    "Ekologi": [
+        "ekologi",
+        "lingkungan ekologis"
+    ],
+    "Kemiskinan": [
+        "kemiskinan",
+        "penanggulangan kemiskinan"
+    ],
+    "Pemerataan Pembangunan": [
+        "pemerataan",
+        "pembangunan merata"
+    ],
+    "Revitalisasi Sungai": [
+        "sungai",
+        "revitalisasi sungai"
+    ],
+    "MICE": [
+        "mice",
+        "event",
+        "konferensi"
+    ],
+    "Fiskal Daerah": [
+        "fiskal",
+        "keuangan daerah",
+        "pendapatan daerah"
+    ],
+    "Pemukiman": [
+        "pemukiman",
+        "perumahan"
+    ],
+    "Penataan Ruang": [
+        "penataan ruang",
+        "tata ruang"
+    ],
+    "Transportasi": [
+        "transportasi",
+        "mobilitas",
+        "lalu lintas"
+    ],
+    "Iklim Global": [
+        "iklim global",
+        "perubahan iklim"
+    ],
+    "Pariwisata": [
+        "pariwisata",
+        "wisata"
+    ],
+    "Kebijakan Daerah": [
+        "kebijakan daerah",
+        "perda"
+    ],
+    "SDA": [
+        "sumber daya alam",
+        "sda"
+    ],
+    "Megatrend Global": [
+        "megatrend",
+        "globalisasi"
+    ],
+    "Urbanisasi": [
+        "urbanisasi",
+        "perkembangan kota"
+    ],
+    "Transformasi Digital": [
+        "transformasi digital",
+        "digitalisasi"
+    ],
+    "Geopolitik global": [
+        "geopolitik",
+        "politik global"
+    ],
+    "Produktivitas Nasional": [
+        "produktivitas",
+        "nasional"
+    ],
+    "Kesejahteraan Masyarakat": [
+        "kesejahteraan",
+        "masyarakat sejahtera"
+    ],
+    "Sarana Prasarana": [
+        "sarana",
+        "prasarana"
+    ],
+    "Sampah": [
+        "sampah",
+        "pengelolaan sampah"
+    ],
+    "Sanitasi": [
+        "sanitasi",
+        "kebersihan"
+    ],
+    "Perkotaan": [
+        "perkotaan",
+        "kota"
+    ],
+    "MKM": [
+        "mkm",
+        "usaha kecil",
+        "mikro",
+        "umkm"
+    ],
+    "Pengangguran": [
+        "pengangguran"
+    ],
+    "Pertanian": [
+        "pertanian",
+        "petani"
+    ],
+    "Industrialisasi": [
+        "industrialisasi",
+        "pabrik"
+    ],
+    "Pelayanan Publik": [
+        "pelayanan publik",
+        "layanan masyarakat"
+    ],
+    "Air bersih": [
+        "air bersih",
+        "akses air"
+    ],
+    "Energi terbarukan": [
+        "energi terbarukan",
+        "energi hijau"
+    ],
+    "Keamanan": [
+        "keamanan",
+        "ketertiban"
+    ],
+    "Agama": [
+        "agama",
+        "kerukunan"
+    ],
+    "Hukum dan HAM": [
+        "hukum",
+        "hak asasi manusia",
+        "ham"
+    ],
+    "Wilayah": [
+        "wilayah",
+        "kewilayahan"
+    ],
+    "Tenaga Kerja Asing": [
+        "tenaga kerja asing",
+        "tka"
+    ],
+    "Stunting": [
+        "stunting",
+        "gizi buruk"
+    ],
+    "Birokrasi": [
+        "birokrasi",
+        "administrasi"
+    ],
+    "Sustainable Development Goals (SDG's)": [
+        "sdg",
+        "sustainable",
+        "tujuan pembangunan berkelanjutan"
+    ],
+    "Gender": [
+        "gender",
+        "kesetaraan gender"
+    ],
+    "Hak Anak": [
+        "hak anak",
+        "perlindungan anak"
+    ],
+    "Narkoba": [
+        "narkoba",
+        "narkotika"
+    ],
+    "LGBT": [
+        "lgbt"
+    ],
+    "Minuman Keras": [
+        "minuman keras",
+        "miras"
+    ],
+    "Judi Online": [
+        "judi online",
+        "perjudian"
+    ]
+}

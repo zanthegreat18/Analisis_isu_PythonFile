@@ -1,0 +1,363 @@
+{
+  "data": [
+    {
+      "data": [
+        "1. Peningkatan Daya Saing Sumber Daya Manusia",
+        "2. Peningkatan Perekonomian Masyarakat",
+        "3. Pemerataan dan Peningkatan Kualitas Infrastruktur Perkotaan",
+        "4. Optimalisasi Pengarusutamaan Gender serta Pemenuhan Hak Anak dan Perempuan",
+        "5. Pelestarian Nilai -Nilai Budaya Daerah",
+        "6. Reformasi Birokrasi",
+        "7. Pelestarian Lingkungan Hidup, Perubahan Iklim, dan Penanggulangan Bencana",
+        "8. Pencegahan Penyalahgunaan Narkoba, LGBT, Minuman Keras dan Judi Online"
+      ],
+      "kodepemda": "1375",
+      "namapemda": "KOTA BUKITTINGGI"
+    },
+    {
+      "data": [
+        "1. Pertumbuhan Ekonomi Inklusif dan Berkelanjutan",
+        "2. Kualitas SDM yang Berdaya Saing",
+        "3. Tata Kelola Pemerintahan",
+        "4. Pembangunan Infrastruktur yang Berkelanjutan"
+      ],
+      "kodepemda": "1771",
+      "namapemda": "KOTA BENGKULU"
+    },
+    {
+      "data": [
+        "1. Kota Metropolitan yang Inklusif, Terintegrasi dan Berkelanjutan",
+        "2. Tata Kelola Pemerintahan yang Cerdas, Efektif, Transparan, mudah diakses serta melibatkan partisipasi publik yang aktif",
+        "3. Perekonomian yang Inklusif, Berdaya saing dan Berkelanjutan",
+        "4. Infrastruktur Perkotaan dan Sistem Transportasi yang Ramah Lingkungan dan Terintegrasi",
+        "5. Pengembangan SDM yang Berkualitas, Terampil, Inklusif, dan Berkarakter.",
+        "6. Kesejahteraan Sosial, Pembangunan Keluarga, Pemberdayaan dan Perlindungan Perempuan dan Anak serta Pengendalian Ketentraman dan Ketertiban Umum",
+        "7. Ketahanan masyarakat dan kota melalui Pembangunan yang Rendah Emisi dan Adaptif terhadap Bencana dan Perubahan Iklim"
+      ],
+      "kodepemda": "1871",
+      "namapemda": "KOTA BANDAR LAMPUNG"
+    },
+    {
+      "data": [
+        "1. Fokus Kesejahteraan Ekonomi (Kurangnya Pemerataan Pertumbuhan Ekonomi Lokal yang Berkelanjutan)",
+        "2. Fokus Pembangunan Sumber Daya Manusia (Pembangunan Manusia yang Belum Merata)",
+        "3. Fokus Infrastruktur, Kewilayahan, dan Lingkungan Hidup (Rendahnya kualitas Lingkungan Hidup dan Ketersediaan Infrastruktur)",
+        "4. Fokus Tata Kelola Pemerintahan (Tata Kelola Pemerintah Belum Baik)"
+      ],
+      "kodepemda": "1902",
+      "namapemda": "KAB. BELITUNG"
+    },
+    {
+      "data": [
+        "1. Sumber Daya Manusia yang Berkualitas dan Berdaya Saing",
+        "2. Resiliensi Terhadap Bencana dan Perubahan Iklim Global",
+        "3. Optimalisasi Penataan Ruang dan Sistem Permukiman yang Cerdas dan Berkelanjutan"
+      ],
+      "kodepemda": "3271",
+      "namapemda": "KOTA BOGOR"
+    },
+    {
+      "data": [
+        "1. Kualitas hidup dan daya saing SDM yang berkarakter serta transisi demografi menuju penduduk usia tua",
+        "2. Kemiskinan dan Pengangguran",
+        "3. Daya saing dan Pertumbuhan Ekonomi inklusif berkelanjutan",
+        "4. Tata Kelola Pemerintahan Dinamis dan Kolaboratif",
+        "5. Keberlanjutan lingkungan hidup serta antisipasi perubahan iklim dan bencana",
+        "6. Pengembangan wilayah dan peningkatan daya saing infrastruktur yang merata dan berkelanjutan"
+      ],
+      "kodepemda": "3302",
+      "namapemda": "KAB. BANYUMAS"
+    },
+    {
+      "data": [
+        "1. Masyarakat Berkualitas Unggul",
+        "2. Masyarakat Sejahtera dan Berbudaya",
+        "3. Ekonomi Daerah yang adaptif, inklusif, berkelanjutan",
+        "4. Pembangunan sarana prasarana kota yang inklusif, tangguh, terpadu, berkelanjutan",
+        "5. Lingkungan Sehat Lestari",
+        "6. Tata Kelola Pemerintahan yang inovatif, adaptif, akuntabel dan mengayomi"
+      ],
+      "kodepemda": "3372",
+      "namapemda": "KOTA SURAKARTA"
+    },
+    {
+      "data": [
+        "Belum optimalnya sistem regulasi dan birokrasi",
+        "Ketimpangan kesejahteraan dan rendahnya daya saing ekonomi kota",
+        "Rendahnya akses terhadap layanan dasar sosial dan pelestarian budaya",
+        "Tingginya dampak bencana terhadap kelompok rentan",
+        "Rendahnya kualitas infrastruktur perkotaan dalam menghadapi ancaman perubahan iklim"
+      ],
+      "kodepemda": "3374",
+      "namapemda": "KOTA SEMARANG"
+    },
+    {
+      "data": [
+        "m. Daya Saing Usaha",
+        "l. Urban Sprawl",
+        "k. Stabilitas Wilayah",
+        "j. Efisiensi Waktu Tempuh",
+        "i. Laju Pertumbuhan Penduduk",
+        "h. Kebutuhan Hunian",
+        "g. Daya Saing SDM",
+        "f. Inklusivitas Kota",
+        "e. Pendidikan Karakter",
+        "d. Degradasi Lingkungan",
+        "c. Pemerataan Ekonomi",
+        "b. Ketangguhan Bencana",
+        "u. Harmonisasi kebijakan pemerintah",
+        "t. Kerja sama antar daerah",
+        "s. Meaningful Participation",
+        "q. Disrupsi teknologi informasi",
+        "r. Keberlanjutan usaha",
+        "a. Ketersediaan dan Keamanan Pangan",
+        "p. Peningkatan PAD",
+        "o. Kondusivitas iklim usaha",
+        "n. Agile Governance"
+      ],
+      "kodepemda": "3578",
+      "namapemda": "KOTA SURABAYA"
+    },
+    {
+      "data": [
+        "1. Kualitas SDM yang sehat, cerdas, adaptif teknologi dan berdaya saing global",
+        "2. Peningkatan pertumbuhan ekonomi berbasis riset yang maju, tangguh dan berkeadilan",
+        "3. Tata kelola yang profesional, inovatif dan kolaboratif",
+        "4. Penyediaan infrastruktur dan pelayanan perkotaan yang mendukung kenyamanan dan produktivitas",
+        "5. Peningkatan ketahanan sosial, budaya dan ekologi",
+        "6. Hunian modern dan nyaman bagi kawasan Megapolitan Jabodetabek"
+      ],
+      "kodepemda": "3674",
+      "namapemda": "KOTA TANGERANG SELATAN"
+    },
+    {
+      "data": [
+        "1. Pertumbuhan Ekonomi dalam Mendorong Kemandirian Daerah",
+        "2. Pengembangan Sumber Daya Manusia yang Berdaya Saing",
+        "3. Pembangunan Infrastruktur Kewilayahan yang Berkelanjutan",
+        "4. Sumber Daya Lingkungan yang Lestari",
+        "5. Reformasi Birokrasi dan Tata Kelola Pemerintahan",
+        "6. Pariwisata & Budaya yang Inovatif, Adaptif, dan Berkelanjutan",
+        "7. Stabilitas Keamanan dan Ketertiban Masyarakat"
+      ],
+      "kodepemda": "5171",
+      "namapemda": "KOTA DENPASAR"
+    },
+    {
+      "data": [
+        "1. Pembangunan SDM yang berdaya saing dan berkarakter.",
+        "2. Optimalisasi kinerja pembangunan ekonomi dan hilirisasi industri berbasis produk unggulan daerah",
+        "3. Optimalisasi penyelenggaraan tata kelola pemerintahan",
+        "4. Mutu SDM yang kompetitif",
+        "5. Pengelolaan sarana prasarana dasar dan sumber daya alam yang lestari.",
+        "6. Pengelolaan lingkungan hidup yang berkelanjutan."
+      ],
+      "kodepemda": "6102",
+      "namapemda": "KAB. MEMPAWAH"
+    },
+    {
+      "data": [
+        "1. Peningkatan kualitas pelayanan pendidikan bagi masyarakat",
+        "2. Peningkatan kualitas pelayanan kesehatan bagi masyarakat",
+        "3. Peningkatan kualitas infrastruktur dasar daerah",
+        "4. Percepatan penanggulangan kemiskinan",
+        "5. Peningkatan kualitas tata kelola pemerintahan dan reformasi birokrasi",
+        "6. Keberlanjutan daya dukung dan daya tampung lingkungan hidup",
+        "7. Pertumbuhan ekonomi inklusif dan berkelanjutan",
+        "8. Pemerataan pembangunan antar wilayah",
+        "9. Revitalisasi sungai untuk transportasi, pariwisata, dan budaya",
+        "10. Pengembangan ekonomi digital dan ekonomi hijau",
+        "11. Pengembangan ekonomi kreatif",
+        "12. Peningkatan kemampuan fiskal daerah"
+      ],
+      "kodepemda": "6371",
+      "namapemda": "KOTA BANJARMASIN"
+    },
+    {
+      "data": [
+        "1. Pembangunan Ekonomi Inklusif Berkelanjutan",
+        "2. Penguatan SDM Berdaya Saing dan Perlindungan Sosial",
+        "3. Reformasi Birokrasi Berdampak dan Tata Kelola Kolaboratif",
+        "4. Pengendalian, Pengelolaan Lingkungan Hidup, dan Ketahanan Bencana",
+        "5. Infrastruktur Berkualitas Terpadu dan Penataan Utilitas Kota",
+        "6. Peningkatan Kota Cerdas dan Nyaman Huni",
+        "7. Maju sebagai Mitra IKN"
+      ],
+      "kodepemda": "6471",
+      "namapemda": "KOTA BALIKPAPAN"
+    },
+    {
+      "data": [
+        "1. Penguatan daya saing sumber daya manusia Kota Samarinda untuk bersaing di era globalisasi",
+        "2. Pembangunan perekonomian Kota Samarinda yang inklusif dan berkelanjutan",
+        "3. Konektivitas dan aksesibilitas antar wilayah di Kota Samarinda",
+        "4. Peningkatan reformasi birokrasi secara menyeluruh",
+        "5. Samarinda menuju Kota Pusat Peradaban Masa Depan dengan pengembangan Tri-City",
+        "6. Kota Berkelanjutan"
+      ],
+      "kodepemda": "6472",
+      "namapemda": "KOTA SAMARINDA"
+    },
+    {
+      "data": [
+        "1. Pemantapan konektivitas Jalan yang terintegrasi",
+        "1. Pertumbuhan ekonomi inklusif.",
+        "1. Percepatan pemerataan dan peningkatan kualitas pendidikan serta kesehatan.",
+        "1. Percepatan pengentasan kemiskinan.",
+        "2. Peningkatan lapangan pekerjaan.",
+        "2. Pengembangan sumber daya lingkungan hidup dan Mengurangi pencemaran akibat air limbah",
+        "2. Penguatan industri dan pengembangan pariwisata.",
+        "2. Pemantapan komitmen kepatuhan tata ruang wilayah.",
+        "3. Konservasi mengantisipasi perubahan iklim.",
+        "3. Peningkatan kualitas ketenagakerjaan.",
+        "3. Mengoptimalkan pengembangan dan Pengelolaan kepariwisataan.",
+        "4. Mengurangi tingginya Tingkat Urbanisasi.",
+        "4. Pemberdayaan koperasi, UMKM, kewirausahaan serta ekonomi kreatif.",
+        "4. Pemantapan kecukupan pangan dan Air Bersih.",
+        "5. Peningkatan peran kebudayaan dan kearifan lokal.",
+        "5. Percepatan Pemerataan kesempatan usaha dan pendapatan",
+        "6. Pemantapan Drainase yang buruk dan yang belum memiliki drainase.",
+        "7. Peningkatan ilmu pengetahuan dan teknologi"
+      ],
+      "kodepemda": "7172",
+      "namapemda": "KOTA BITUNG"
+    },
+    {
+      "data": [
+        "1. Morowali wilayah industri dan hilirisasi industri SDA dan TKA",
+        "2. Menurunnya peran sektor pertanian dan pariwisata",
+        "3. Kualitas dan daya saing sumber daya manusia ",
+        "4. Percepatan dan pengentasan kemiskinan dan stunting",
+        "5. Konektivitas infrastruktur antar wilayah dan pemenuhan sarana dan prasarana dasar",
+        "6. Reformasi birokrasi / Tata kelola pemerintahan",
+        "7. Kemajuan teknologi dan digitalisasi",
+        "8. Bencana alam, lingkungan hidup berkelanjutan dan perubahan iklim",
+        "9. Pelaksanaan dan pencapaian target Sustainable Development Goals (SDGs)",
+        "10. Inovasi pembiayaan pembangunan dalam mendukung kesinambungan pembangunan"
+      ],
+      "kodepemda": "7206",
+      "namapemda": "KAB. MOROWALI"
+    },
+    {
+      "data": [
+        "1) penanggulangan kemiskinan dan peningkatan pendapatan masyarakat",
+        "2) peningkatan sumber daya manusia",
+        "3) optimalisasi daya saing ekonomi daerah",
+        "4) ketersediaan air bersih dan sanitasi yang layak",
+        "5) pelestarian lingkungan yang hidup",
+        "6) ketahanan pangan dan gizi",
+        "7) penguatan tata kelola pemerintah",
+        "8) energii terbarukan yang ramah lingkungan",
+        "9) pembangunan ekonomii yang inklusif",
+        "10) ketertiban dan keamanan wilayah"
+      ],
+      "kodepemda": "7402",
+      "namapemda": "KAB. KONAWE"
+    },
+    {
+      "data": [
+        ""
+      ],
+      "kodepemda": "7571",
+      "namapemda": "KOTA GORONTALO"
+    },
+    {
+      "data": [
+        "1. Layanan Pendidikan dan Kesehatan",
+        "2. Peningkatan Potensi dan Daya Saing Ekonomi Daerah",
+        "3. Mitigasi Risiko Bencana, Ancaman Perubahan Iklim dan Kerentanan Daya Dukung Wilayah",
+        "4. Infrastruktur dan Literasi Digital",
+        "5. Pengelolaan Potensi Pariwisata dan Budaya",
+        "6. Tata Kelola Pemerintahan",
+        "7. Ketahanan Pangan",
+        "8. Kemitraan Pembangunan",
+        "9. Sumber Daya Manusia Yang Berdaya Saing"
+      ],
+      "kodepemda": "8171",
+      "namapemda": "KOTA AMBON"
+    },
+    {
+      "data": [
+        "1. Sumber Daya Manusia",
+        "2. Mewujudkan Pertumbuhan Ekonomi Inklusif",
+        "3. Meningkatkan Kuantitas dan Kualitas Infrastruktur",
+        "4. Reformasi Birokrasi dan Tata Kelola Pemerintahan",
+        "5. Pengelolaan Sumber Daya Alam Berwawasan Lingkungan dan Berkelanjutan.",
+        "6. Tingginya Tingkat Kemiskinan"
+      ],
+      "kodepemda": "8202",
+      "namapemda": "KAB. HALMAHERA TENGAH"
+    },
+    {
+      "data": [
+        "1. Potensi Sumber Daya Pembangunan",
+        "2. Mempertahankan dan Menghormati Keragaman Budaya Masyarakat",
+        "3. Demografi, Urbanisasi dan Keterkaitan Kota/Kampung",
+        "4. Pengentasan Kemiskinan dan Ketimpangan Pendapatan",
+        "5. Ketimpangan Ekonomi Daerah dan Ketenagakerjaan",
+        "6. Pendidikan dan Kesehatan",
+        "7. Disrupsi Teknologi dan Inovasi",
+        "8. Pengelolaan Sumber Daya Alam dan Pembangunan Berkelanjutan",
+        "9. Transformasi Birokrasi dan Manajemen ASN",
+        "10. Perdagangan Antar Daerah dan Global Kompetitif"
+      ],
+      "kodepemda": "9171",
+      "namapemda": "KOTA JAYAPURA"
+    },
+    {
+      "data": [
+        "- Diberlakukannya PPHN (Pokok-pokok Haluan Negara) dalam sistem perencanaan pembangunan. Jika berlaku, maka visi dan misi pembangunan sama semua, yaitu visi dan misi sebagaimana termaktub dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (bersatu, berdaulat, adil dan makmur);",
+        "- Adanya tuntutan pemekaran wilayah.",
+        "- Kekerasan dalam rumah tangga.",
+        "- Adanya bonus bonus demografi 2045;",
+        "- Migrasi dan urbanisasi penduduk yang semakin tinggi;",
+        "- Gen Milenial dan Gen Z saat ini akan mendominasi jumlah penduduk dominan di masa mendatang;",
+        "- Terjadi perubahan struktur pasar tenaga kerja dari pendidikan rendah ke pendidikan menengah dan tinggi, serta dari sektor pertanian ke sektor non pertanian;",
+        "- Persaingan tenaga kerja membuat ketimpangan dalam penyerapan tenaga kerja.",
+        "- Pembangunan manusia akan bergeser pada peningkatan modal manusia, atau akan terjadi perubahan Human Develompent Index ke Human Capital Index;",
+        "- Tuntas stunting, dan Wajib Belajar 12 tahun + 1 tahun PAUD;",
+        "- Unit layanan pendidikan dan kesehatan terakreditasi menjadi kebutuhan prioritas;",
+        "- Berkembangnya marketplace dan platform digital dalam dunia pendidikan dan kesehatan;",
+        "- Kesehatan dan pendidikan menjadi pilar utama transformasi menuju Kota Sorong Gerbang Jasa 2045;",
+        "- Peranan pemuda dalam pembangunan menjadi lebih dominan, terjadi transformasi peran pemuda dari obyek menjadi subyek pembangunan;",
+        "- Revitalisasi pembangunan olah raga yang berdaya saing.",
+        "- Tuntas kemiskinan ekstrim;",
+        "- Bertambah banyaknya PMKS (Penyandang Masalah Kesejahteraan Sosial) yang memberi ekses negatif sebagai akibat kemajuan teknologi dan pembangunan;",
+        "- Kualitas perlindungan dan pemberdayaan sosial menjadi semakin penting;",
+        "- Degradasi budaya yang dapat menghilangkan jati diri.",
+        "- Pengembangan kota layak anak menjadi kebutuhan penting mewujudkan Generasi Emas Kota Sorong 2045;",
+        "- Perempuan semakin kritis dan mandiri, menuntutemansipasi dan dan kesetaraan gender;",
+        "- Perilaku Childfree pada perempuan (perempuan tanpa anak).",
+        "- Mindset ekonomi menjadi lebih utama dalam pembangunan bidang ke PU-an;",
+        "- Kebutuhan transportasi terpadu jalan dan angkutan sungai semakin meningkat;",
+        "- Kebutuhan perumahan dan permukiman layak hunibertambah;",
+        "- Disrupsi teknologi komunikasi dan informasi yang semakin cepat dan masif melalui jaringan 4g dan 5g;",
+        "- Harmonisasi tata ruang hijau dengan kebutuhanpembangunan.",
+        "- Perekonomian yang tumbuh cepat, mandiri, inklusif dan berkelanjutan lebih diutamakan;",
+        "- Transformasi struktural dalam perekonomian wilayah;",
+        "- Korporasi dalam agrobisnis menjadi jalan utama meningkatkan kesejahteraan petani, nelayan dan peternak;",
+        "- Biaya transaksi (Transaction Cost) yang tinggi sehingga mengurangi hasrat berinvestasi;",
+        "- Penguatan dan pengembangan pariwisata berbasis masyarakat;",
+        "- Kemunculan konsumen baru yaitu social-customer dengan ciri : (1) knowledgeable (tahu segalanya); (2) socially connected (terkoneksi tanpa batas).",
+        "- Bertambahnya jumlah partai politik;",
+        "- Profil partai politik bukan lagi menjadi pilihan utama;",
+        "- Masyarakat semakin cerdas dan kritis dalam berpolitik dan berdemokrasi.",
+        "- Faktor keamanan, ketentraman dan ketertiban umum menjadi kunci utama berjalannya pembangunan;",
+        "- Ketersediaan tenaga keamanan yang tidak berimbang denganluas wilayah;",
+        "- Modus operandi kejahatan semakin berkembang dan maju;",
+        "- Hoax (berita kebohongan) yang meningkat dan masif;",
+        "- Bertambahnya dana pembangunan desa;",
+        "- Masa jabatan kepala desa menjadi 8 tahun dan 2 kali dapat dipilih sehingga dimungkinkan memimpin desa/kampung 16 tahun;",
+        "- Profesionalisme dan inovasi dalam tata kelola pemerintahan dan pembangunan desa semakin dibutuhkan",
+        "- Diperlukan respon yang cepat untuk mengadaptasi dan harmonisasi perubahan regulasi;",
+        "- Transformasi birokrasi dan kinerja ASN;",
+        "- Orientasi pelayanan publik bergeser dari supplier-oriented (mengejar target) ke consumer-oriented (kepentingan masyarakat) dan terakhir ke customer-oriented (sesuai kebutuhan masyarakat) dimana tingkat partisipasi menjadi lebih besar;",
+        "- Pengelolaan keuangan daerah dituntut semakin transparan dan akuntabel;",
+        "- Transformasi peran aktor pembangunan dari triple-helix (pemerintah, swasta, PT) ke penta-helix (pemerintah, swasta,PT, komunitas, media);"
+      ],
+      "kodepemda": "9671",
+      "namapemda": "KOTA SORONG"
+    }
+  ],
+  "lastupdate": "2025-05-20T08:44:09+07:00"
+}
