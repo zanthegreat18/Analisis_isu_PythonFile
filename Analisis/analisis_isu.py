@@ -1,23 +1,35 @@
 import json
 import re
 import sys
+import logging
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
+# --- SETUP LOGGING ---
+logging.basicConfig(
+    level=logging.INFO,  # level minimal log yang mau ditampilin
+    format="%(asctime)s - %(levelname)s - %(message)s",  # format log
+    handlers=[
+        logging.FileHandler("./Output/proses.log", encoding="utf-8"),  # simpan log ke file
+        logging.StreamHandler(sys.stdout)  # tetep nampilin ke console
+    ]
+)
 
 # 1. LOAD DATA & KAMUS TEMA
 try:
     with open('./Data/data_pemda.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
+    logging.info("File data_pemda.json berhasil dimuat.")
 except FileNotFoundError:
-    print("❌ Error: File data_pemda.json tidak ditemukan.")
+    logging.error("File data_pemda.json tidak ditemukan.")
     sys.exit()
 
 try:
     with open('./Data/kamus_tema.json', 'r', encoding='utf-8') as f:
         common_themes = json.load(f)
+    logging.info("File kamus_tema.json berhasil dimuat.")
 except FileNotFoundError:
-    print("❌ Error: File kamus_tema.json tidak ditemukan.")
+    logging.error("File kamus_tema.json tidak ditemukan.")
     sys.exit()
 
 
@@ -46,7 +58,6 @@ def explain_similarity(original_text_clean, matched_text_clean):
         return "Kecocokan berdasarkan makna kalimat secara umum."
 
 
-
 # 3. PERSIAPAN DATA ISU
 all_individual_issues = []
 for item in data['data']:
@@ -63,34 +74,35 @@ for item in data['data']:
 kota_acuan_pembanding = sorted(list(set(item['pemda_name'] for item in all_individual_issues)))
 themes_list = sorted(list(common_themes.keys()))
 
+logging.info(f"Total isu individu: {len(all_individual_issues)}")
+logging.info(f"Total daerah unik: {len(kota_acuan_pembanding)}")
+logging.info(f"Total tema: {len(themes_list)}")
 
 
 # 4. LOAD MODEL SEMANTIK
-print("📦 Memuat model semantik...")
+logging.info("📦 Memuat model semantik...")
 try:
     model = SentenceTransformer('intfloat/multilingual-e5-large')
+    logging.info("✅ Model berhasil dimuat.")
 except Exception as e:
-    print(f"❌ Gagal memuat model: {e}")
+    logging.critical(f"Gagal memuat model: {e}")
     sys.exit()
 
-print("✅ Model berhasil dimuat.")
-
-print("🔄 Memproses embedding isu...")
+logging.info("🔄 Memproses embedding isu...")
 individual_issue_texts = [item['issue_clean_text'] for item in all_individual_issues]
 individual_issue_embeddings = model.encode(individual_issue_texts, convert_to_tensor=False, show_progress_bar=True)
 
-print("📊 Menghitung matriks similaritas...")
+logging.info("📊 Menghitung matriks similaritas...")
 similarity_matrix_individual = cosine_similarity(individual_issue_embeddings)
-
 
 
 # 5. PROSES ANALISIS 
 relevance_threshold = 0.5
 hasil_analisis = []
 
-print("\n🚀 Memulai analisis otomatis...")
+logging.info("🚀 Memulai analisis otomatis...")
 for daerah_idx, daerah in enumerate(kota_acuan_pembanding, start=1):
-    print(f"\n[{daerah_idx}/{len(kota_acuan_pembanding)}] 📍 Memproses daerah: {daerah}")
+    logging.info(f"[{daerah_idx}/{len(kota_acuan_pembanding)}] 📍 Memproses daerah: {daerah}")
 
     for tema_idx, tema in enumerate(themes_list, start=1):
         isu_tersaring = [
@@ -102,7 +114,7 @@ for daerah_idx, daerah in enumerate(kota_acuan_pembanding, start=1):
         if not isu_tersaring:
             continue
 
-        print(f"   - ({tema_idx}/{len(themes_list)}) Tema '{tema}': {len(isu_tersaring)} isu ditemukan")
+        logging.info(f"   - ({tema_idx}/{len(themes_list)}) Tema '{tema}': {len(isu_tersaring)} isu ditemukan")
 
         for indeks_isu_terpilih, isu_terpilih_data in isu_tersaring:
             best_match_per_region = {}
@@ -110,7 +122,7 @@ for daerah_idx, daerah in enumerate(kota_acuan_pembanding, start=1):
                 if indeks_isu_terpilih == j or isu_pembanding['pemda_name'] == daerah:
                     continue
 
-                skor = float(similarity_matrix_individual[indeks_isu_terpilih][j])  # 🔹 langsung convert ke float Python
+                skor = float(similarity_matrix_individual[indeks_isu_terpilih][j])
                 nama_pemda_pembanding = isu_pembanding['pemda_name']
 
                 if nama_pemda_pembanding not in best_match_per_region or skor > best_match_per_region[nama_pemda_pembanding]['skor']:
@@ -131,14 +143,13 @@ for daerah_idx, daerah in enumerate(kota_acuan_pembanding, start=1):
                 'peringkat_kemiripan': sorted(best_match_per_region.values(), key=lambda x: x['skor'], reverse=True)
             })
 
-print("\n✅ Analisis selesai, menyimpan hasil...")
-
+logging.info("✅ Analisis selesai, menyimpan hasil...")
 
 
 # 6. SIMPAN HASIL 
 try:
     with open('./Output/hasil.json', 'w', encoding='utf-8') as f:
         json.dump(hasil_analisis, f, ensure_ascii=False, indent=2)
-    print("📂 Hasil analisis tersimpan di ./Output/hasil.json")
+    logging.info("📂 Hasil analisis tersimpan di ./Output/hasil.json")
 except Exception as e:
-    print(f"❌ Gagal menyimpan file hasil.json: {e}")
+    logging.error(f"Gagal menyimpan file hasil.json: {e}")

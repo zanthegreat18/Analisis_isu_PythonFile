@@ -1,0 +1,284 @@
+2025-08-20 14:47:22,120 - INFO - File data_pemda.json berhasil dimuat.
+2025-08-20 14:47:22,121 - INFO - File kamus_tema.json berhasil dimuat.
+2025-08-20 14:47:22,121 - INFO - Total isu individu: 219
+2025-08-20 14:47:22,121 - INFO - Total daerah unik: 22
+2025-08-20 14:47:22,122 - INFO - Total tema: 60
+2025-08-20 14:47:22,122 - INFO - 📦 Memuat model semantik...
+2025-08-20 14:47:22,122 - INFO - Use pytorch device_name: cpu
+2025-08-20 14:47:22,123 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-large
+2025-08-20 14:47:28,632 - INFO - ✅ Model berhasil dimuat.
+2025-08-20 14:47:28,632 - INFO - 🔄 Memproses embedding isu...
+2025-08-20 14:47:42,994 - INFO - 📊 Menghitung matriks similaritas...
+2025-08-20 14:47:43,001 - INFO - 🚀 Memulai analisis otomatis...
+2025-08-20 14:47:43,002 - INFO - [1/22] 📍 Memproses daerah: KAB. BANYUMAS
+2025-08-20 14:47:43,003 - INFO -    - (3/60) Tema 'Bencana': 1 isu ditemukan
+2025-08-20 14:47:43,011 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:43,017 - INFO -    - (15/60) Tema 'Iklim Global': 1 isu ditemukan
+2025-08-20 14:47:43,023 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:43,029 - INFO -    - (21/60) Tema 'Kemiskinan': 1 isu ditemukan
+2025-08-20 14:47:43,035 - INFO -    - (28/60) Tema 'Lingkungan Hidup': 1 isu ditemukan
+2025-08-20 14:47:43,045 - INFO -    - (41/60) Tema 'Pengangguran': 1 isu ditemukan
+2025-08-20 14:47:43,050 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:43,056 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:43,061 - INFO -    - (60/60) Tema 'Wilayah': 1 isu ditemukan
+2025-08-20 14:47:43,065 - INFO - [2/22] 📍 Memproses daerah: KAB. BELITUNG
+2025-08-20 14:47:43,066 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:43,071 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:43,076 - INFO -    - (23/60) Tema 'Kesejahteraan Masyarakat': 1 isu ditemukan
+2025-08-20 14:47:43,080 - INFO -    - (28/60) Tema 'Lingkungan Hidup': 1 isu ditemukan
+2025-08-20 14:47:43,085 - INFO -    - (37/60) Tema 'Pemerataan Pembangunan': 1 isu ditemukan
+2025-08-20 14:47:43,092 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:43,098 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:43,102 - INFO -    - (60/60) Tema 'Wilayah': 1 isu ditemukan
+2025-08-20 14:47:43,106 - INFO - [3/22] 📍 Memproses daerah: KAB. HALMAHERA TENGAH
+2025-08-20 14:47:43,107 - INFO -    - (4/60) Tema 'Birokrasi': 1 isu ditemukan
+2025-08-20 14:47:43,112 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:43,118 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:43,122 - INFO -    - (21/60) Tema 'Kemiskinan': 1 isu ditemukan
+2025-08-20 14:47:43,127 - INFO -    - (28/60) Tema 'Lingkungan Hidup': 1 isu ditemukan
+2025-08-20 14:47:43,137 - INFO -    - (46/60) Tema 'SDA': 1 isu ditemukan
+2025-08-20 14:47:43,141 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:43,146 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:43,151 - INFO -    - (56/60) Tema 'Tenaga Kerja Asing': 1 isu ditemukan
+2025-08-20 14:47:43,156 - INFO - [4/22] 📍 Memproses daerah: KAB. KONAWE
+2025-08-20 14:47:43,157 - INFO -    - (2/60) Tema 'Air bersih': 1 isu ditemukan
+2025-08-20 14:47:43,163 - INFO -    - (7/60) Tema 'Ekonomi': 2 isu ditemukan
+2025-08-20 14:47:43,173 - INFO -    - (19/60) Tema 'Keamanan': 1 isu ditemukan
+2025-08-20 14:47:43,178 - INFO -    - (21/60) Tema 'Kemiskinan': 1 isu ditemukan
+2025-08-20 14:47:43,184 - INFO -    - (28/60) Tema 'Lingkungan Hidup': 2 isu ditemukan
+2025-08-20 14:47:43,194 - INFO -    - (34/60) Tema 'Pangan': 1 isu ditemukan
+2025-08-20 14:47:43,201 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:43,205 - INFO -    - (49/60) Tema 'Sanitasi': 1 isu ditemukan
+2025-08-20 14:47:43,211 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:43,216 - INFO -    - (60/60) Tema 'Wilayah': 1 isu ditemukan
+2025-08-20 14:47:43,220 - INFO - [5/22] 📍 Memproses daerah: KAB. MEMPAWAH
+2025-08-20 14:47:43,222 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:43,227 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:43,233 - INFO -    - (28/60) Tema 'Lingkungan Hidup': 1 isu ditemukan
+2025-08-20 14:47:43,239 - INFO -    - (46/60) Tema 'SDA': 1 isu ditemukan
+2025-08-20 14:47:43,243 - INFO -    - (47/60) Tema 'SDM': 2 isu ditemukan
+2025-08-20 14:47:43,249 - INFO -    - (50/60) Tema 'Sarana Prasarana': 1 isu ditemukan
+2025-08-20 14:47:43,254 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:43,259 - INFO - [6/22] 📍 Memproses daerah: KAB. MOROWALI
+2025-08-20 14:47:43,260 - INFO -    - (3/60) Tema 'Bencana': 1 isu ditemukan
+2025-08-20 14:47:43,264 - INFO -    - (4/60) Tema 'Birokrasi': 1 isu ditemukan
+2025-08-20 14:47:43,270 - INFO -    - (15/60) Tema 'Iklim Global': 1 isu ditemukan
+2025-08-20 14:47:43,274 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:43,279 - INFO -    - (21/60) Tema 'Kemiskinan': 1 isu ditemukan
+2025-08-20 14:47:43,284 - INFO -    - (28/60) Tema 'Lingkungan Hidup': 1 isu ditemukan
+2025-08-20 14:47:43,290 - INFO -    - (35/60) Tema 'Pariwisata': 1 isu ditemukan
+2025-08-20 14:47:43,296 - INFO -    - (43/60) Tema 'Pertanian': 1 isu ditemukan
+2025-08-20 14:47:43,301 - INFO -    - (46/60) Tema 'SDA': 1 isu ditemukan
+2025-08-20 14:47:43,305 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:43,309 - INFO -    - (50/60) Tema 'Sarana Prasarana': 1 isu ditemukan
+2025-08-20 14:47:43,314 - INFO -    - (52/60) Tema 'Stunting': 1 isu ditemukan
+2025-08-20 14:47:43,318 - INFO -    - (53/60) Tema 'Sustainable Development Goals (SDG's)': 1 isu ditemukan
+2025-08-20 14:47:43,322 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:43,326 - INFO -    - (55/60) Tema 'Teknologi': 2 isu ditemukan
+2025-08-20 14:47:43,333 - INFO -    - (56/60) Tema 'Tenaga Kerja Asing': 1 isu ditemukan
+2025-08-20 14:47:43,336 - INFO -    - (57/60) Tema 'Transformasi Digital': 1 isu ditemukan
+2025-08-20 14:47:43,340 - INFO -    - (60/60) Tema 'Wilayah': 2 isu ditemukan
+2025-08-20 14:47:43,347 - INFO - [7/22] 📍 Memproses daerah: KOTA AMBON
+2025-08-20 14:47:43,348 - INFO -    - (3/60) Tema 'Bencana': 1 isu ditemukan
+2025-08-20 14:47:43,352 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:43,356 - INFO -    - (15/60) Tema 'Iklim Global': 1 isu ditemukan
+2025-08-20 14:47:43,360 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:43,365 - INFO -    - (22/60) Tema 'Kesehatan': 1 isu ditemukan
+2025-08-20 14:47:43,371 - INFO -    - (34/60) Tema 'Pangan': 1 isu ditemukan
+2025-08-20 14:47:43,375 - INFO -    - (35/60) Tema 'Pariwisata': 1 isu ditemukan
+2025-08-20 14:47:43,380 - INFO -    - (40/60) Tema 'Pendidikan': 2 isu ditemukan
+2025-08-20 14:47:43,387 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:43,391 - INFO -    - (51/60) Tema 'Sosial Budaya': 1 isu ditemukan
+2025-08-20 14:47:43,395 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:43,398 - INFO -    - (55/60) Tema 'Teknologi': 1 isu ditemukan
+2025-08-20 14:47:43,403 - INFO -    - (60/60) Tema 'Wilayah': 1 isu ditemukan
+2025-08-20 14:47:43,406 - INFO - [8/22] 📍 Memproses daerah: KOTA BALIKPAPAN
+2025-08-20 14:47:43,407 - INFO -    - (3/60) Tema 'Bencana': 1 isu ditemukan
+2025-08-20 14:47:43,411 - INFO -    - (4/60) Tema 'Birokrasi': 1 isu ditemukan
+2025-08-20 14:47:43,415 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:43,419 - INFO -    - (14/60) Tema 'IKN': 1 isu ditemukan
+2025-08-20 14:47:43,423 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:43,428 - INFO -    - (24/60) Tema 'Kota Cerdas': 1 isu ditemukan
+2025-08-20 14:47:43,432 - INFO -    - (28/60) Tema 'Lingkungan Hidup': 1 isu ditemukan
+2025-08-20 14:47:43,439 - INFO -    - (42/60) Tema 'Perkotaan': 2 isu ditemukan
+2025-08-20 14:47:43,446 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:43,450 - INFO -    - (51/60) Tema 'Sosial Budaya': 1 isu ditemukan
+2025-08-20 14:47:43,453 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:43,459 - INFO - [9/22] 📍 Memproses daerah: KOTA BANDAR LAMPUNG
+2025-08-20 14:47:43,460 - INFO -    - (3/60) Tema 'Bencana': 1 isu ditemukan
+2025-08-20 14:47:43,466 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:43,471 - INFO -    - (15/60) Tema 'Iklim Global': 1 isu ditemukan
+2025-08-20 14:47:43,476 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:43,481 - INFO -    - (19/60) Tema 'Keamanan': 1 isu ditemukan
+2025-08-20 14:47:43,486 - INFO -    - (23/60) Tema 'Kesejahteraan Masyarakat': 1 isu ditemukan
+2025-08-20 14:47:43,490 - INFO -    - (28/60) Tema 'Lingkungan Hidup': 1 isu ditemukan
+2025-08-20 14:47:43,497 - INFO -    - (42/60) Tema 'Perkotaan': 3 isu ditemukan
+2025-08-20 14:47:43,508 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:43,512 - INFO -    - (51/60) Tema 'Sosial Budaya': 1 isu ditemukan
+2025-08-20 14:47:43,516 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:43,520 - INFO -    - (56/60) Tema 'Tenaga Kerja Asing': 1 isu ditemukan
+2025-08-20 14:47:43,525 - INFO -    - (58/60) Tema 'Transportasi': 1 isu ditemukan
+2025-08-20 14:47:43,529 - INFO - [10/22] 📍 Memproses daerah: KOTA BANJARMASIN
+2025-08-20 14:47:43,530 - INFO -    - (4/60) Tema 'Birokrasi': 1 isu ditemukan
+2025-08-20 14:47:43,536 - INFO -    - (7/60) Tema 'Ekonomi': 3 isu ditemukan
+2025-08-20 14:47:43,544 - INFO -    - (9/60) Tema 'Fiskal Daerah': 1 isu ditemukan
+2025-08-20 14:47:43,549 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:43,554 - INFO -    - (21/60) Tema 'Kemiskinan': 1 isu ditemukan
+2025-08-20 14:47:43,557 - INFO -    - (22/60) Tema 'Kesehatan': 1 isu ditemukan
+2025-08-20 14:47:43,562 - INFO -    - (28/60) Tema 'Lingkungan Hidup': 1 isu ditemukan
+2025-08-20 14:47:43,568 - INFO -    - (35/60) Tema 'Pariwisata': 1 isu ditemukan
+2025-08-20 14:47:43,573 - INFO -    - (37/60) Tema 'Pemerataan Pembangunan': 1 isu ditemukan
+2025-08-20 14:47:43,577 - INFO -    - (40/60) Tema 'Pendidikan': 1 isu ditemukan
+2025-08-20 14:47:43,581 - INFO -    - (45/60) Tema 'Revitalisasi Sungai': 1 isu ditemukan
+2025-08-20 14:47:43,586 - INFO -    - (51/60) Tema 'Sosial Budaya': 1 isu ditemukan
+2025-08-20 14:47:43,591 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:43,595 - INFO -    - (55/60) Tema 'Teknologi': 1 isu ditemukan
+2025-08-20 14:47:43,599 - INFO -    - (58/60) Tema 'Transportasi': 1 isu ditemukan
+2025-08-20 14:47:43,603 - INFO -    - (60/60) Tema 'Wilayah': 1 isu ditemukan
+2025-08-20 14:47:43,606 - INFO - [11/22] 📍 Memproses daerah: KOTA BENGKULU
+2025-08-20 14:47:43,607 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:43,611 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:43,617 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:43,620 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:43,625 - INFO - [12/22] 📍 Memproses daerah: KOTA BITUNG
+2025-08-20 14:47:43,626 - INFO -    - (2/60) Tema 'Air bersih': 1 isu ditemukan
+2025-08-20 14:47:43,633 - INFO -    - (7/60) Tema 'Ekonomi': 2 isu ditemukan
+2025-08-20 14:47:43,642 - INFO -    - (15/60) Tema 'Iklim Global': 1 isu ditemukan
+2025-08-20 14:47:43,649 - INFO -    - (21/60) Tema 'Kemiskinan': 1 isu ditemukan
+2025-08-20 14:47:43,653 - INFO -    - (22/60) Tema 'Kesehatan': 1 isu ditemukan
+2025-08-20 14:47:43,659 - INFO -    - (27/60) Tema 'Lapangan Pekerjaan': 1 isu ditemukan
+2025-08-20 14:47:43,663 - INFO -    - (28/60) Tema 'Lingkungan Hidup': 2 isu ditemukan
+2025-08-20 14:47:43,671 - INFO -    - (30/60) Tema 'MKM': 1 isu ditemukan
+2025-08-20 14:47:43,676 - INFO -    - (34/60) Tema 'Pangan': 2 isu ditemukan
+2025-08-20 14:47:43,682 - INFO -    - (35/60) Tema 'Pariwisata': 2 isu ditemukan
+2025-08-20 14:47:43,689 - INFO -    - (37/60) Tema 'Pemerataan Pembangunan': 2 isu ditemukan
+2025-08-20 14:47:43,696 - INFO -    - (39/60) Tema 'Penataan Ruang': 1 isu ditemukan
+2025-08-20 14:47:43,700 - INFO -    - (40/60) Tema 'Pendidikan': 1 isu ditemukan
+2025-08-20 14:47:43,709 - INFO -    - (51/60) Tema 'Sosial Budaya': 1 isu ditemukan
+2025-08-20 14:47:43,715 - INFO -    - (55/60) Tema 'Teknologi': 1 isu ditemukan
+2025-08-20 14:47:43,719 - INFO -    - (59/60) Tema 'Urbanisasi': 1 isu ditemukan
+2025-08-20 14:47:43,723 - INFO -    - (60/60) Tema 'Wilayah': 1 isu ditemukan
+2025-08-20 14:47:43,727 - INFO - [13/22] 📍 Memproses daerah: KOTA BOGOR
+2025-08-20 14:47:43,727 - INFO -    - (3/60) Tema 'Bencana': 1 isu ditemukan
+2025-08-20 14:47:43,732 - INFO -    - (15/60) Tema 'Iklim Global': 1 isu ditemukan
+2025-08-20 14:47:43,738 - INFO -    - (39/60) Tema 'Penataan Ruang': 1 isu ditemukan
+2025-08-20 14:47:43,743 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:43,746 - INFO - [14/22] 📍 Memproses daerah: KOTA BUKITTINGGI
+2025-08-20 14:47:43,747 - INFO -    - (3/60) Tema 'Bencana': 1 isu ditemukan
+2025-08-20 14:47:43,751 - INFO -    - (4/60) Tema 'Birokrasi': 1 isu ditemukan
+2025-08-20 14:47:43,755 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:43,759 - INFO -    - (10/60) Tema 'Gender': 1 isu ditemukan
+2025-08-20 14:47:43,763 - INFO -    - (12/60) Tema 'Hak Anak': 1 isu ditemukan
+2025-08-20 14:47:43,767 - INFO -    - (15/60) Tema 'Iklim Global': 1 isu ditemukan
+2025-08-20 14:47:43,771 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:43,774 - INFO -    - (18/60) Tema 'Judi Online': 1 isu ditemukan
+2025-08-20 14:47:43,779 - INFO -    - (26/60) Tema 'LGBT': 1 isu ditemukan
+2025-08-20 14:47:43,783 - INFO -    - (28/60) Tema 'Lingkungan Hidup': 1 isu ditemukan
+2025-08-20 14:47:43,788 - INFO -    - (32/60) Tema 'Minuman Keras': 1 isu ditemukan
+2025-08-20 14:47:43,791 - INFO -    - (33/60) Tema 'Narkoba': 1 isu ditemukan
+2025-08-20 14:47:43,795 - INFO -    - (37/60) Tema 'Pemerataan Pembangunan': 1 isu ditemukan
+2025-08-20 14:47:43,799 - INFO -    - (42/60) Tema 'Perkotaan': 1 isu ditemukan
+2025-08-20 14:47:43,804 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:43,807 - INFO -    - (51/60) Tema 'Sosial Budaya': 1 isu ditemukan
+2025-08-20 14:47:43,812 - INFO - [15/22] 📍 Memproses daerah: KOTA DENPASAR
+2025-08-20 14:47:43,813 - INFO -    - (4/60) Tema 'Birokrasi': 1 isu ditemukan
+2025-08-20 14:47:43,817 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:43,822 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:43,825 - INFO -    - (19/60) Tema 'Keamanan': 1 isu ditemukan
+2025-08-20 14:47:43,831 - INFO -    - (28/60) Tema 'Lingkungan Hidup': 1 isu ditemukan
+2025-08-20 14:47:43,836 - INFO -    - (35/60) Tema 'Pariwisata': 1 isu ditemukan
+2025-08-20 14:47:43,847 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:43,853 - INFO -    - (51/60) Tema 'Sosial Budaya': 1 isu ditemukan
+2025-08-20 14:47:43,861 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:43,870 - INFO -    - (60/60) Tema 'Wilayah': 1 isu ditemukan
+2025-08-20 14:47:43,875 - INFO - [16/22] 📍 Memproses daerah: KOTA JAYAPURA
+2025-08-20 14:47:43,876 - INFO -    - (1/60) Tema 'Agama': 1 isu ditemukan
+2025-08-20 14:47:43,882 - INFO -    - (4/60) Tema 'Birokrasi': 1 isu ditemukan
+2025-08-20 14:47:43,890 - INFO -    - (7/60) Tema 'Ekonomi': 2 isu ditemukan
+2025-08-20 14:47:43,900 - INFO -    - (20/60) Tema 'Kebijakan Daerah': 1 isu ditemukan
+2025-08-20 14:47:43,903 - INFO -    - (21/60) Tema 'Kemiskinan': 1 isu ditemukan
+2025-08-20 14:47:43,907 - INFO -    - (22/60) Tema 'Kesehatan': 1 isu ditemukan
+2025-08-20 14:47:43,912 - INFO -    - (34/60) Tema 'Pangan': 2 isu ditemukan
+2025-08-20 14:47:43,919 - INFO -    - (40/60) Tema 'Pendidikan': 1 isu ditemukan
+2025-08-20 14:47:43,923 - INFO -    - (42/60) Tema 'Perkotaan': 1 isu ditemukan
+2025-08-20 14:47:43,927 - INFO -    - (46/60) Tema 'SDA': 1 isu ditemukan
+2025-08-20 14:47:43,932 - INFO -    - (51/60) Tema 'Sosial Budaya': 1 isu ditemukan
+2025-08-20 14:47:43,936 - INFO -    - (55/60) Tema 'Teknologi': 1 isu ditemukan
+2025-08-20 14:47:43,941 - INFO -    - (59/60) Tema 'Urbanisasi': 1 isu ditemukan
+2025-08-20 14:47:43,945 - INFO - [17/22] 📍 Memproses daerah: KOTA SAMARINDA
+2025-08-20 14:47:43,946 - INFO -    - (4/60) Tema 'Birokrasi': 1 isu ditemukan
+2025-08-20 14:47:43,950 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:43,957 - INFO -    - (31/60) Tema 'Megatrend Global': 1 isu ditemukan
+2025-08-20 14:47:43,962 - INFO -    - (42/60) Tema 'Perkotaan': 5 isu ditemukan
+2025-08-20 14:47:43,977 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:43,982 - INFO -    - (60/60) Tema 'Wilayah': 1 isu ditemukan
+2025-08-20 14:47:43,986 - INFO - [18/22] 📍 Memproses daerah: KOTA SEMARANG
+2025-08-20 14:47:43,987 - INFO -    - (3/60) Tema 'Bencana': 1 isu ditemukan
+2025-08-20 14:47:43,991 - INFO -    - (4/60) Tema 'Birokrasi': 1 isu ditemukan
+2025-08-20 14:47:43,996 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:44,002 - INFO -    - (15/60) Tema 'Iklim Global': 1 isu ditemukan
+2025-08-20 14:47:44,007 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:44,011 - INFO -    - (23/60) Tema 'Kesejahteraan Masyarakat': 1 isu ditemukan
+2025-08-20 14:47:44,016 - INFO -    - (34/60) Tema 'Pangan': 1 isu ditemukan
+2025-08-20 14:47:44,021 - INFO -    - (42/60) Tema 'Perkotaan': 2 isu ditemukan
+2025-08-20 14:47:44,029 - INFO -    - (51/60) Tema 'Sosial Budaya': 1 isu ditemukan
+2025-08-20 14:47:44,036 - INFO - [19/22] 📍 Memproses daerah: KOTA SORONG
+2025-08-20 14:47:44,042 - INFO -    - (4/60) Tema 'Birokrasi': 1 isu ditemukan
+2025-08-20 14:47:44,049 - INFO -    - (7/60) Tema 'Ekonomi': 3 isu ditemukan
+2025-08-20 14:47:44,060 - INFO -    - (9/60) Tema 'Fiskal Daerah': 1 isu ditemukan
+2025-08-20 14:47:44,065 - INFO -    - (10/60) Tema 'Gender': 1 isu ditemukan
+2025-08-20 14:47:44,081 - INFO -    - (19/60) Tema 'Keamanan': 2 isu ditemukan
+2025-08-20 14:47:44,091 - INFO -    - (21/60) Tema 'Kemiskinan': 1 isu ditemukan
+2025-08-20 14:47:44,096 - INFO -    - (22/60) Tema 'Kesehatan': 3 isu ditemukan
+2025-08-20 14:47:44,106 - INFO -    - (23/60) Tema 'Kesejahteraan Masyarakat': 2 isu ditemukan
+2025-08-20 14:47:44,128 - INFO -    - (34/60) Tema 'Pangan': 1 isu ditemukan
+2025-08-20 14:47:44,133 - INFO -    - (35/60) Tema 'Pariwisata': 1 isu ditemukan
+2025-08-20 14:47:44,137 - INFO -    - (36/60) Tema 'Pelayanan Publik': 1 isu ditemukan
+2025-08-20 14:47:44,144 - INFO -    - (38/60) Tema 'Pemukiman': 1 isu ditemukan
+2025-08-20 14:47:44,148 - INFO -    - (39/60) Tema 'Penataan Ruang': 1 isu ditemukan
+2025-08-20 14:47:44,153 - INFO -    - (40/60) Tema 'Pendidikan': 4 isu ditemukan
+2025-08-20 14:47:44,168 - INFO -    - (42/60) Tema 'Perkotaan': 2 isu ditemukan
+2025-08-20 14:47:44,176 - INFO -    - (43/60) Tema 'Pertanian': 2 isu ditemukan
+2025-08-20 14:47:44,186 - INFO -    - (45/60) Tema 'Revitalisasi Sungai': 1 isu ditemukan
+2025-08-20 14:47:44,191 - INFO -    - (47/60) Tema 'SDM': 2 isu ditemukan
+2025-08-20 14:47:44,202 - INFO -    - (51/60) Tema 'Sosial Budaya': 3 isu ditemukan
+2025-08-20 14:47:44,212 - INFO -    - (52/60) Tema 'Stunting': 1 isu ditemukan
+2025-08-20 14:47:44,218 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:44,223 - INFO -    - (55/60) Tema 'Teknologi': 4 isu ditemukan
+2025-08-20 14:47:44,237 - INFO -    - (56/60) Tema 'Tenaga Kerja Asing': 1 isu ditemukan
+2025-08-20 14:47:44,243 - INFO -    - (58/60) Tema 'Transportasi': 1 isu ditemukan
+2025-08-20 14:47:44,247 - INFO -    - (59/60) Tema 'Urbanisasi': 1 isu ditemukan
+2025-08-20 14:47:44,252 - INFO -    - (60/60) Tema 'Wilayah': 3 isu ditemukan
+2025-08-20 14:47:44,261 - INFO - [20/22] 📍 Memproses daerah: KOTA SURABAYA
+2025-08-20 14:47:44,263 - INFO -    - (3/60) Tema 'Bencana': 1 isu ditemukan
+2025-08-20 14:47:44,269 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:44,279 - INFO -    - (19/60) Tema 'Keamanan': 1 isu ditemukan
+2025-08-20 14:47:44,288 - INFO -    - (28/60) Tema 'Lingkungan Hidup': 1 isu ditemukan
+2025-08-20 14:47:44,295 - INFO -    - (34/60) Tema 'Pangan': 1 isu ditemukan
+2025-08-20 14:47:44,300 - INFO -    - (37/60) Tema 'Pemerataan Pembangunan': 1 isu ditemukan
+2025-08-20 14:47:44,305 - INFO -    - (40/60) Tema 'Pendidikan': 1 isu ditemukan
+2025-08-20 14:47:44,308 - INFO -    - (42/60) Tema 'Perkotaan': 1 isu ditemukan
+2025-08-20 14:47:44,314 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:44,320 - INFO -    - (55/60) Tema 'Teknologi': 1 isu ditemukan
+2025-08-20 14:47:44,326 - INFO -    - (60/60) Tema 'Wilayah': 1 isu ditemukan
+2025-08-20 14:47:44,329 - INFO - [21/22] 📍 Memproses daerah: KOTA SURAKARTA
+2025-08-20 14:47:44,330 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:44,334 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:44,338 - INFO -    - (23/60) Tema 'Kesejahteraan Masyarakat': 1 isu ditemukan
+2025-08-20 14:47:44,342 - INFO -    - (28/60) Tema 'Lingkungan Hidup': 1 isu ditemukan
+2025-08-20 14:47:44,348 - INFO -    - (42/60) Tema 'Perkotaan': 1 isu ditemukan
+2025-08-20 14:47:44,352 - INFO -    - (50/60) Tema 'Sarana Prasarana': 1 isu ditemukan
+2025-08-20 14:47:44,356 - INFO -    - (51/60) Tema 'Sosial Budaya': 1 isu ditemukan
+2025-08-20 14:47:44,360 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:44,365 - INFO - [22/22] 📍 Memproses daerah: KOTA TANGERANG SELATAN
+2025-08-20 14:47:44,366 - INFO -    - (6/60) Tema 'Ekologi': 1 isu ditemukan
+2025-08-20 14:47:44,370 - INFO -    - (7/60) Tema 'Ekonomi': 1 isu ditemukan
+2025-08-20 14:47:44,375 - INFO -    - (17/60) Tema 'Infrastruktur dan Utilitas Kota': 1 isu ditemukan
+2025-08-20 14:47:44,382 - INFO -    - (42/60) Tema 'Perkotaan': 1 isu ditemukan
+2025-08-20 14:47:44,386 - INFO -    - (44/60) Tema 'Produktivitas Nasional': 1 isu ditemukan
+2025-08-20 14:47:44,390 - INFO -    - (47/60) Tema 'SDM': 1 isu ditemukan
+2025-08-20 14:47:44,394 - INFO -    - (51/60) Tema 'Sosial Budaya': 1 isu ditemukan
+2025-08-20 14:47:44,397 - INFO -    - (54/60) Tema 'Tata Kelola Pemerintahan': 1 isu ditemukan
+2025-08-20 14:47:44,402 - INFO -    - (55/60) Tema 'Teknologi': 1 isu ditemukan
+2025-08-20 14:47:44,405 - INFO - ✅ Analisis selesai, menyimpan hasil...
+2025-08-20 14:47:44,452 - INFO - 📂 Hasil analisis tersimpan di ./Output/hasil.json
