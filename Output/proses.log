@@ -851,3 +851,19 @@
 2025-08-22 14:24:57,301 - INFO -    - Tema 'Ekonomi': 1 isu ditemukan
 2025-08-22 14:24:57,303 - INFO - ✅ Analisis selesai, menyimpan hasil...
 2025-08-22 14:24:57,305 - INFO - 📂 Hasil analisis tersimpan di ./Output/hasil.json
+2025-08-25 09:48:47,099 - INFO - File data_pemda.json berhasil dimuat.
+2025-08-25 09:48:47,106 - INFO - File kamus_tema.json berhasil dimuat.
+2025-08-25 09:48:47,107 - INFO - Total isu individu: 219
+2025-08-25 09:48:47,107 - INFO - Total daerah unik: 22
+2025-08-25 09:48:47,107 - INFO - Total tema: 60
+2025-08-25 09:48:47,107 - INFO - 📦 Memuat model semantik...
+2025-08-25 09:48:47,108 - INFO - Use pytorch device_name: cpu
+2025-08-25 09:48:47,109 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-large
+2025-08-25 09:48:52,591 - INFO - ✅ Model berhasil dimuat.
+2025-08-25 09:48:52,591 - INFO - 🔄 Memproses embedding isu...
+2025-08-25 09:49:07,511 - INFO - 📊 Menghitung matriks similaritas...
+2025-08-25 09:49:07,518 - INFO - 🚀 Memulai analisis otomatis...
+2025-08-25 09:49:07,518 - INFO - [1/1] 📍 Memproses daerah: KOTA BUKITTINGGI
+2025-08-25 09:49:07,519 - INFO -    - Tema 'Ekonomi': 1 isu ditemukan
+2025-08-25 09:49:07,521 - INFO - ✅ Analisis selesai, menyimpan hasil...
+2025-08-25 09:49:07,523 - INFO - 📂 Hasil analisis tersimpan di ./Output/hasil.json

@@ -3,13 +3,12 @@ import pandas as pd
 import sys
 import os
 
-
-# 1. LOAD KAMUS TEMA
+# LOAD KAMUS TEMA
 kamus_path = './Data/kamus_tema.json'
 
 try:
     with open(kamus_path, 'r', encoding='utf-8') as f:
-        THEMES = json.load(f)
+        kamus_data = json.load(f)
 except FileNotFoundError:
     print(f"❌ Error: File {kamus_path} tidak ditemukan.")
     sys.exit()
@@ -17,8 +16,15 @@ except json.JSONDecodeError:
     print(f"❌ Error: File {kamus_path} bukan JSON yang valid.")
     sys.exit()
 
+# Ambil daftar tema dari "klasifikasi_topik"
+if "klasifikasi_topik" not in kamus_data:
+    print("❌ Struktur JSON tidak sesuai (tidak ada key 'klasifikasi_topik').")
+    sys.exit()
 
-# 2. LOAD DATA PEMDA
+THEMES = {item["nama"]: item["keywords"] for item in kamus_data["klasifikasi_topik"]}
+
+
+# LOAD DATA PEMDA
 data_path = './Data/data_pemda.json'
 
 try:
@@ -32,7 +38,7 @@ except json.JSONDecodeError:
     sys.exit()
 
 
-# 3. PILIH TEMA
+# PILIH TEMA
 print("\n📌 Daftar Tema yang tersedia:")
 for idx, tema in enumerate(THEMES.keys(), start=1):
     print(f"{idx}. {tema}")
@@ -46,14 +52,15 @@ except (ValueError, IndexError):
 
 keywords_to_search = THEMES[tema_utama]
 
-# 4. PROSES ANALISIS PENYEBARAN
+# PROSES ANALISIS PENYEBARAN
 hasil_analisis = []
 for item in raw_data['data']:
     nama_pemda = item['namapemda']
     list_program = item['data']
 
     jumlah_isu_tema = sum(
-        1 for program in list_program if any(keyword.lower() in program.lower() for keyword in keywords_to_search)
+        1 for program in list_program
+        if any(keyword.lower() in program.lower() for keyword in keywords_to_search)
     )
 
     hasil_analisis.append({
@@ -65,7 +72,7 @@ for item in raw_data['data']:
 df_hasil_sorted = pd.DataFrame(hasil_analisis).sort_values(by='Skor_Tema', ascending=False)
 
 
-# 5. SIMPAN KE JSON
+# SIMPAN KE JSON
 os.makedirs('./Output', exist_ok=True)
 output_path = f'./Output/hasil_tema_{tema_utama.replace(" ", "_")}.json'
 
@@ -76,7 +83,6 @@ try:
 except Exception as e:
     print(f"❌ Gagal menyimpan file: {e}")
 
-
-# 6. SIMPAN HASIL
+# TAMPILKAN HASIL
 print("\n📊 Hasil Analisis Penyebaran:")
 print(df_hasil_sorted.to_string(index=False))
