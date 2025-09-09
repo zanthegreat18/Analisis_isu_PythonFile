@@ -52,11 +52,23 @@ def analisis_tema():
         print("❌ Pilihan tidak valid.")
         return
 
+    # Ambil data kegiatan dari tema terpilih
     tema_data = data["klasifikasi_tema"][tema_terpilih]
+
+    # === LOGIKA PRUNING: hapus duplikat berdasarkan kode + nama ===
+    seen = set()
+    pruned_data = []
+    for item in tema_data:
+        key = (item.get("kodekegiatan"), item.get("namakegiatan"))
+        if key not in seen:
+            seen.add(key)
+            pruned_data.append(item)
+
+    # Buat hasil akhir setelah pruning
     hasil = {
         "tema": tema_terpilih,
-        "jumlah_kegiatan": len(tema_data),
-        "kegiatan": tema_data
+        "jumlah_kegiatan": len(pruned_data),
+        "kegiatan": pruned_data
     }
 
     output_path = os.path.join(OUTPUT_FOLDER, f"hasil_tema_{tema_terpilih}.json")
@@ -69,7 +81,7 @@ def analisis_tema():
         print("❌ Gagal simpan file hasil.")
         return
 
-    print(f"\n✅ Hasil analisis tema '{tema_terpilih}' disimpan ke: {output_path}")
+    print(f"\n✅ Hasil analisis tema '{tema_terpilih}' (setelah pruning) disimpan ke: {output_path}")
     logging.info("=== Analisis tema selesai ===")
 
 if __name__ == "__main__":
