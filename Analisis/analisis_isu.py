@@ -118,7 +118,7 @@ logging.info(f"Total tema: {len(themes_list)}")
 # LOAD MODEL SEMANTIK
 logging.info("📦 Memuat model semantik...")
 try:
-    model = SentenceTransformer('intfloat/multilingual-e5-large')
+    model = SentenceTransformer('intfloat/multilingual-e5-large') #paraphrase-multilingual-mpnet-base-v2   Model yang disarankan karena ringan.
     logging.info("✅ Model berhasil dimuat.")
 except Exception as e:
     logging.critical(f"Gagal memuat model: {e}")
